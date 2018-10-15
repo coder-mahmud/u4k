@@ -2,7 +2,7 @@
 html{overflow-x: hidden;}
 body{overflow-x: hidden;}
 img{width: 100%;}
-.logo{float: left;display: inline-block;}
+.logo{float: left;display: inline-block; line-height: 115px}
 .logo img{max-width: 185px;}
 
 
@@ -36,3 +36,7 @@ img{width: 100%;}
 .footer_area .footer_menu li{list-style: none;  display: inline-block; border-right:1px solid #fff; }
 .footer_area .footer_menu li:last-child{list-style: none;  display: inline-block; border-right:0px solid #fff; }
 .footer_area .footer_menu li a{display: block; color:#fff; padding:0 10px;}
+
+/* Home Donate area */
+.home_donate_area{}
+.home_donate_area .row{background: url('img/colour_layer.png') no-repeat; background-position: left bottom}
