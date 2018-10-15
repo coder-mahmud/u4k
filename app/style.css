@@ -2,21 +2,17 @@
 html{overflow-x: hidden;}
 body{overflow-x: hidden;}
 img{width: 100%;}
-.logo{float: left; width: 30%; display: inline-block;}
-.logo img{width: 100%;}
+.logo{float: left;display: inline-block;}
+.logo img{max-width: 185px;}
 
 
 
-.header_area{
-    margin-top: 7px;
-    margin-bottom: 10px;
-
-}
+.header_area{}
 
 .menu_holder{ padding: 0 !important; position:relative; z-index: 99; }
-.flexnav{width: auto; float: left !important;}
+.flexnav{width: auto; float: right !important;}
 .flexnav li{float: left; display: inline; text-align: center; width: auto;}
-.flexnav li a{}
+.flexnav li a{padding:0;}
 .flexnav li > ul{display: none;}
 .slider_area{margin-bottom: 65px;}
 .slider_area img{}
