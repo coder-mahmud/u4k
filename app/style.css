@@ -30,13 +30,18 @@ img{width: 100%;}
 .home_content_area .text_section p{font-size: 13px;}
 
 
-.footer_area{background: #1E477F; color:#fff; text-align: center; padding:10px 0;}
+
+
+/* Home Donate area */
+.home_hero_area{}
+.home_hero_area {background: url('img/colour_layer.png') no-repeat; background-position: left bottom}
+
+
+
+/* Footer area */
+.footer_area{background: #4A4A4A; color:#fff; text-align: center; padding:10px 0;}
 .footer_area p{ margin-top: 8px; display: inline;}
 .footer_area .footer_menu{margin-top: 8px; display:inline;}
 .footer_area .footer_menu li{list-style: none;  display: inline-block; border-right:1px solid #fff; }
 .footer_area .footer_menu li:last-child{list-style: none;  display: inline-block; border-right:0px solid #fff; }
 .footer_area .footer_menu li a{display: block; color:#fff; padding:0 10px;}
-
-/* Home Donate area */
-.home_donate_area{}
-.home_donate_area .row{background: url('img/colour_layer.png') no-repeat; background-position: left bottom}
