@@ -2,11 +2,93 @@
 
 @font-face {
   font-family: 'MuseoSlab-500';
-  src: url('/fonts/MuseoSlab-500.eot?#iefix') format('embedded-opentype'),  url('/fonts/MuseoSlab-500.otf')  format('opentype'),
-	     url('/fonts/MuseoSlab-500.woff') format('woff'), url('/fonts/MuseoSlab-500.ttf')  format('truetype'), url('/fonts/MuseoSlab-500.svg#MuseoSlab-500') format('svg');
+  src: url('fonts/MuseoSlab-500.eot?#iefix') format('embedded-opentype'),  url('fonts/MuseoSlab-500.otf')  format('opentype'),
+	     url('fonts/MuseoSlab-500.woff') format('woff'), url('fonts/MuseoSlab-500.ttf')  format('truetype'), url('fonts/MuseoSlab-500.svg#MuseoSlab-500') format('svg');
   font-weight: normal;
   font-style: normal;
 }
+
+
+@font-face {
+  font-family: 'MuseoSlab-300';
+  src: url('fonts/MuseoSlab-300.eot?#iefix') format('embedded-opentype'),  url('fonts/MuseoSlab-300.woff') format('woff'), url('fonts/MuseoSlab-300.ttf')  format('truetype'), url('fonts/MuseoSlab-300.svg#MuseoSlab-300') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fz_25{font-size: 25px;}
+.fz_40{font-size: 40px;}
+.fw_700{font-weight: 700;}
+.fw_900{font-weight: 900;}
+.text_center{text-align: center;}
+.muse_font{font-family: 'MuseoSlab-300'; font-weight: 300;}
+.m_t_25{display: block; margin-top: 25px;}
+.yellow_box_shadow{
+	padding:7px 15px;
+	-webkit-box-shadow: 3px 3px 0px 0px rgba(255,195,14,1);
+	-moz-box-shadow: 3px 3px 0px 0px rgba(255,195,14,1);
+	box-shadow: 3px 3px 0px 0px rgba(255,195,14,1);
+
+}
+
+
+.white_box_shadow{
+	padding:7px 15px;
+	-webkit-box-shadow: 3px 3px 0px 0px rgba(255,255,255,1);
+	-moz-box-shadow: 3px 3px 0px 0px rgba(255,255,255,1);
+	box-shadow: 3px 3px 0px 0px rgba(255,255,255,1);
+
+}
+
+.hvr-fade {
+	background-color: #0095DA;
+	color:#fff;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+  border:1px solid transparent;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #fff;
+  border:1px solid #0095DA;
+  color: #0095DA;
+}
+
+
+.hvr_fade_red {
+	background-color: #ED3129;
+	color:#fff;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+  border:1px solid transparent;
+}
+.hvr_fade_red:hover, .hvr_fade_red:focus, .hvr_fade_red:active {
+  background-color: #fff;
+  border:1px solid #ED3129;
+  color: #ED3129;
+}
+
+
+
 
 
 
@@ -45,9 +127,39 @@ img{width: 100%;}
 
 /* Home Donate area */
 .home_hero_area{}
-.home_hero_area {background: url('img/colour_layer.png') no-repeat; background-position: left bottom}
+.home_hero_area {background: url('img/colour_layer.png') no-repeat; background-position: left bottom; background-color: #F3F3F3;}
 
-.blue_with_yellow{}
+.blue_text_with_yellow_bg{background: #FFC20E; display: inline-block; font-size: 30px; line-height: 25px;}
+.black_900{font-weight: 900;}
+.m_t_25{display: block; margin-top: 25px;}
+
+
+a:hover{
+	text-decoration: none;
+}
+
+
+
+
+
+
+/* featured_blogarea */
+.featured_blog_area{background: #2AB573;}
+.featured_blog_area .col-md-4{
+	background: #2AB573;
+	color:#fff;
+	padding-top: 100px;
+	padding-bottom: 90px;
+}
+
+.featured_blog_area .col-md-4:hover{
+	background: #24AD69;
+}
+
+.white_text_red_bg{
+	background: #ED3129; display: inline-block; font-size: 30px; line-height: 25px;color:#fff;
+}
+
 
 /* Footer area */
 .footer_area{background: #4A4A4A; color:#fff; text-align: center; padding:10px 0;}
