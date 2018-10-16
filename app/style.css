@@ -22,7 +22,11 @@
 .fw_900{font-weight: 900;}
 .text_center{text-align: center;}
 .muse_font{font-family: 'MuseoSlab-300'; font-weight: 300;}
+
 .m_t_25{display: block; margin-top: 25px;}
+.m_b_50{margin-bottom: 50px;}
+
+
 .yellow_box_shadow{
 	padding:7px 15px;
 	-webkit-box-shadow: 3px 3px 0px 0px rgba(255,195,14,1);
@@ -39,6 +43,18 @@
 	box-shadow: 3px 3px 0px 0px rgba(255,255,255,1);
 
 }
+
+
+.blue_text_with_yellow_bg{background: #FFC20E; display: inline-block; font-size: 30px; line-height: 25px;}
+.white_text_red_bg{
+	background: #ED3129; display: inline-block; font-size: 30px; line-height: 25px;color:#fff;
+}
+.white_text_red_bg{
+	background: #FEC10E; display: inline-block; font-size: 30px; line-height: 25px;color:#fff;
+}
+
+
+
 
 .hvr-fade {
 	background-color: #0095DA;
@@ -129,7 +145,7 @@ img{width: 100%;}
 .home_hero_area{}
 .home_hero_area {background: url('img/colour_layer.png') no-repeat; background-position: left bottom; background-color: #F3F3F3;}
 
-.blue_text_with_yellow_bg{background: #FFC20E; display: inline-block; font-size: 30px; line-height: 25px;}
+
 .black_900{font-weight: 900;}
 .m_t_25{display: block; margin-top: 25px;}
 
@@ -156,9 +172,7 @@ a:hover{
 	background: #24AD69;
 }
 
-.white_text_red_bg{
-	background: #ED3129; display: inline-block; font-size: 30px; line-height: 25px;color:#fff;
-}
+
 
 
 /* Footer area */
@@ -168,3 +182,19 @@ a:hover{
 .footer_area .footer_menu li{list-style: none;  display: inline-block; border-right:1px solid #fff; }
 .footer_area .footer_menu li:last-child{list-style: none;  display: inline-block; border-right:0px solid #fff; }
 .footer_area .footer_menu li a{display: block; color:#fff; padding:0 10px;}
+
+
+
+/* featured_blogarea */
+.testimonial_area{padding:100px 0; background: url('img/testimonial_bg.jpg') no-repeat; text-align: center;}
+.testimonial_image_holder{
+	position: absolute;
+}
+.testimonial_image_holder img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+
+}
+.text_holder{position: relative; max-width: 490px}
+.testimonial_area .bx-wrapper{max-width: 490px !important; margin: 0 auto;}
