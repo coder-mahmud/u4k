@@ -188,13 +188,40 @@ a:hover{
 /* featured_blogarea */
 .testimonial_area{padding:100px 0; background: url('img/testimonial_bg.jpg') no-repeat; text-align: center;}
 .testimonial_image_holder{
-	position: absolute;
+    position: absolute;
+    top: 50%;
+    left: -80px;
+    margin-top: -80px;
 }
 .testimonial_image_holder img{
-	width: 120px;
-	height: 120px;
+	width: 165px;
+	height: 165px;
 	border-radius: 50%;
 
 }
-.text_holder{position: relative; max-width: 490px}
-.testimonial_area .bx-wrapper{max-width: 490px !important; margin: 0 auto;}
+.text_holder{position: relative; padding:80px 60px 60px 120px; max-width: 650px; margin: 0 auto; background: #fff}
+.testimonial_area .bx-wrapper{/*max-width: 580px !important; */margin: 0 auto; background:none;}
+.testimonial_text{font-size: 28px;font-weight: 700; font-style: italic; margin:0 auto; color:#FFC20E; line-height: 25px; text-align: left;}
+.testimonial_text::before{
+	content:url("img/tick.jpg");
+	position: absolute;
+	left:80px;
+	top:20px;
+}
+.testimonial_text::after{
+	content:url("img/tick.jpg");
+	position: absolute;
+	left:80px;
+	bottom:65px;
+}
+.slider > div{position: relative; }
+.bx-wrapper{border: 0px solid #ddd !important; box-shadow:0px 0px !important;}
+
+.testi_client_name{
+    font-family: 'MuseoSlab-300';
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 16px;
+    text-align: right;
+
+}
