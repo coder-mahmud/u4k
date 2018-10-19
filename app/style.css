@@ -18,8 +18,10 @@
 
 .fz_25{font-size: 25px;}
 .fz_40{font-size: 40px;}
+
 .fw_700{font-weight: 700;}
 .fw_900{font-weight: 900;}
+
 .text_center{text-align: center;}
 .muse_font{font-family: 'MuseoSlab-300'; font-weight: 300;}
 
@@ -46,11 +48,14 @@
 
 
 .blue_text_with_yellow_bg{background: #FFC20E; display: inline-block; font-size: 30px; line-height: 25px;}
+
 .white_text_red_bg{
-	background: #ED3129; display: inline-block; font-size: 30px; line-height: 25px;color:#fff;
+  background: #ED3129; display: inline-block; font-size: 30px; line-height: 25px;color:#fff;
 }
-.white_text_red_bg{
-	background: #FEC10E; display: inline-block; font-size: 30px; line-height: 25px;color:#fff;
+
+
+.white_text_yellow_bg{
+	background: #FFC20E; display: inline-block; font-size: 30px; line-height: 25px;color:#fff;
 }
 
 
