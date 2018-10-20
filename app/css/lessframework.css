@@ -4,7 +4,7 @@
 	.flexnav li{background: none; border:none; height:115px; display:inline;}
 	.flexnav li:last-child{background: #ED3129;}
 	.flexnav li:last-child a{font-weight: bold;}
-	.flexnav li a{background: none; border:none; text-decoration: none; line-height: 115px; display: inline-block; padding:0 20px;}
+	.flexnav li a{background: none; border:none; text-decoration: none; line-height: 115px; display: inline-block; padding:0 20px; }
 	.menu_holder{width: auto; float:right; text-align: right;}
 	.flexnav .touch-button{top:-2px;right:10px;width: 25px; background: none;}
 	.flexnav li > ul  li{text-align:left; border-bottom:1px solid #ddd;}
@@ -27,7 +27,6 @@
 	.menu-button{
 		text-align: left;
 	    overflow: hidden;
-	    width: 100%;
 	}
 }
 
