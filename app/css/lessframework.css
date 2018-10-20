@@ -24,10 +24,10 @@
 	.flexnav li{width: 100%; text-align: left; }
 	.container{width: 100%; max-width: 100%;}
 	.flexnav li > ul{padding-left: 0;}
-	.menu-button{
-		text-align: left;
-	    overflow: hidden;
-	}
+	.menu-button{text-align: left; overflow: hidden; } 
+	.flexnav li a{padding:10px 0; color:#d3531a;background: none; }
+
+
 }
 
 
