@@ -195,6 +195,7 @@ img{width: 100%;}
 .header_area{}
 
 .menu_holder{ padding: 0 !important; position:relative; z-index: 99; }
+.logo{margin-left: 19px;}
 .flexnav{width: auto; float: right !important;}
 .flexnav li{float: left; display: inline; text-align: center; width: auto;}
 .flexnav li a{padding:0; color:#BDBDBD; }
@@ -371,7 +372,7 @@ a:hover{
 /*================= =================*/
 /*================= =================*/
 
-.logo_menu_button_holder{position: relative; overflow: hidden;}
+.logo_menu_button_holder{position: relative;}
 .menu-button{padding: 0; background: none; border:none; position: relative; height:115px;}
 
 #nav-icon3{
